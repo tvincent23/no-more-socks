@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("https://www.timberhavenloghomes.com/wp-content/uploads/2014/12/Zazzle-Christmas.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: red;
+  padding: 10px;
+}
+
+p {
+  color: white;
+}
+
+.button {
+  all: unset;
+  width: 10%;
+  background-color: white;
+  color: red;
+  border-radius: 2%;
+  font-size: 30px;
+}
