@@ -1,5 +1,7 @@
 // import { data } from "../no-more-socks-backend/index.js";
 import { useState, useEffect } from "react";
+import listData from "../data.json"
+import Styles from "./Tyler.css"
 
 export default function TylerPage() {
   const dataArray = listData.map((item, index) => (
