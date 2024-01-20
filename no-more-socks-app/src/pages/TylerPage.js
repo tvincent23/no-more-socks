@@ -16,8 +16,15 @@ export default function TylerPage() {
 
   return (
     <>
-      <div>PLEASE</div>
-      <div></div>
+      <div className="flex">
+        <h2>Hi Tyler!</h2>
+        <ul>
+          {listData.map((item, index) => (
+            <li key={index}>{item.name}</li>
+          ))}
+          {/* <ul>{tylerList}</ul> */}
+        </ul>
+      </div>
     </>
   );
 }

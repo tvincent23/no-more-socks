@@ -5,6 +5,37 @@
 
 /* project CSS */
 
+body {
+    background: 
+}
+
+.App {
+    border: 1px solid red;
+    display: flex;
+    max-width: 60rem;
+    margin: 2rem auto;
+    
+}
+
+header {
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.btnContainer {
+    border: 1px solid red;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
 .landing-page-section {
     border: 1px solid red;
     margin-bottom: 1rem;
