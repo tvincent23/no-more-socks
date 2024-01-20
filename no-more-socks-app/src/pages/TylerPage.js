@@ -1,4 +1,5 @@
 // import { data } from "../no-more-socks-backend/index.js";
+import Item from "../item.js";
 import { useState, useEffect } from "react";
 
 export default function TylerPage() {
@@ -19,8 +20,10 @@ export default function TylerPage() {
       <div className="flex">
         <h2>Hi Tyler!</h2>
         <ul>
-          {listData.map((item, index) => (
-            <li key={index}>{item.name}</li>
+          {data?.map((item, index) => (
+            <li key={index}>
+              <Item prop={item} />
+            </li>
           ))}
           {/* <ul>{tylerList}</ul> */}
         </ul>
