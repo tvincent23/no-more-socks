@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function MakeWish({ to, TylerPage }) {
   return (
     <>
-     <Link to="/tyler"><button className="font-bold py-3 bg-red-500 rounded-md px-4 text-stone-50">Make a Wish</button></Link>
+     <Link to="/tyler"><button className="font-bold py-3 bg-red-500 rounded-md px-4 text-stone-50 btn">Make a Wish</button></Link>
     </>
   );
 
