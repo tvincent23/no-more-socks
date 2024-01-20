@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import "./index.css";
 import App from "./App.js";
 import TylerPage from "./pages/TylerPage.js";
-import PurchaseWish from "./PurchaseWish.js";
+import MumPage from "./pages/MumPage.js";
 import "./input.css";
 
 export default function Router() {
@@ -15,7 +15,7 @@ export default function Router() {
         <Route path="/" element={<App />} />
         <Route path="/tyler" element={<TylerPage />} />
 
-        <Route path="/aunt" element={<PurchaseWish />} />
+        <Route path="/mum" element={<MumPage />} />
       </Routes>
     </BrowserRouter>
   );

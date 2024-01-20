@@ -3,9 +3,7 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
   theme: {
     extend: {
-      backgroundImage: {
-        "hero-pattern": "url('./src/background.jpg')",
-      },
+      // Add your theme extensions here
     },
   },
   plugins: [],
