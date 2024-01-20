@@ -5,11 +5,16 @@
 
 /* project CSS */
 
+body {
+    background: 
+}
+
 .App {
     border: 1px solid red;
     display: flex;
     max-width: 60rem;
     margin: 2rem auto;
+    
 }
 
 header {
