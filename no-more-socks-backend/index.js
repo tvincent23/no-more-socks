@@ -8,7 +8,7 @@ const PORT = 8080
 // set up the routes
 app.get('/receiver', async function(req, res) {
     console.log('get request received')
-    res.status(200).body("{}").send()
+    res.status(200).json({})
 
 })
 
