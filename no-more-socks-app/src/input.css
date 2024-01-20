@@ -36,7 +36,14 @@ header h1 {
     gap: 1rem;
     justify-content: center;
 }
+.btn:hover {
+    background: rgb(207, 61, 61);
+}
 .landing-page-section {
     border: 1px solid red;
     margin-bottom: 1rem;
+}
+
+.mumpage {
+    
 }
