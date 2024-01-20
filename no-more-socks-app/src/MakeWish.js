@@ -1,7 +1,11 @@
-export default function MakeWish(prop) {
+import { Link } from "react-router-dom";
+
+export default function MakeWish({ to, TylerPage }) {
   return (
     <>
-      <button className="button">Make a Wish</button>
+      <Link to={to}>
+        <button>{TylerPage}</button>
+      </Link>
     </>
   );
 }

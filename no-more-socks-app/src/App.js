@@ -6,7 +6,6 @@ import TylerPage from "./pages/TylerPage.js";
 export default function App() {
   return (
     <>
-      
       <div className="App">
         <div className="flex justify-center">
           <header>
