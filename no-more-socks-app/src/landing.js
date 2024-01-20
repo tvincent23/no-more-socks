@@ -1,7 +1,8 @@
 export default function Landing() {
   return (
     <>
-      <p>
+    <section className="landing-page-section">
+    <p>
         Are you tired of always receiving socks for Christmas? Did you dream of
         a playstation and got another Lynx Africa set
       </p>
@@ -13,6 +14,8 @@ export default function Landing() {
         Then when it comes to Christmas time, Santa's helpers will make sure, if
         you've been good person, you will receive your gifts
       </p>
+    </section>
+   
     </>
   );
 }

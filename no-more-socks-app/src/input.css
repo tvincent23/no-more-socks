@@ -3,4 +3,9 @@
 @tailwind utilities;
 
 
+/* project CSS */
 
+.landing-page-section {
+    border: 1px solid red;
+    margin-bottom: 1rem;
+}
