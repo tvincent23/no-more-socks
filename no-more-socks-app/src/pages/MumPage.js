@@ -1,7 +1,7 @@
 export default function MumPage() {
   return (
-    <>
-      <div>MumPage</div>
-    </>
+    <div className="mumpage">
+      <h1>MumPage</h1>
+    </div>
   );
 }
