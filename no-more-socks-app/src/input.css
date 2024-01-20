@@ -10,7 +10,7 @@ body {
 }
 
 .App {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     max-width: 60rem;
     margin: 2rem auto;
@@ -31,7 +31,7 @@ header h1 {
     margin-bottom: 1rem;
 }
 .btnContainer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -40,7 +40,7 @@ header h1 {
     background: rgb(207, 61, 61);
 }
 .landing-page-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 1rem;
 }
 
