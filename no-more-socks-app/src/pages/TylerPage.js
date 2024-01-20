@@ -1,18 +1,29 @@
 import listData from "../data.json";
+import Styles from "./Tyler.css";
 
 export default function TylerPage() {
-  //   const tylerList = listData.map((item, index) => <li key={index}>{item}</li>);
+  const dataArray = listData.map((item, index) => (
+    <li key={index}>{item.gift}</li>
+  ));
+
   console.log(listData);
   return (
     <>
-      <div className="flex">
-        <h2>Hi Tyler!</h2>
-        <ul>
+      <div>
+        <div>
+          <h2>Hi Tyler!</h2>
+        </div>
+        <div class="list">
+          <ul>{dataArray}</ul>
+        </div>
+
+        {/* <ul>
           {listData.map((item, index) => (
-            <li key={index}>{item.name}</li>
+            <li key={index}>
+              {item.gift} {item.comments}
+            </li>
           ))}
-          {/* <ul>{tylerList}</ul> */}
-        </ul>
+        </ul> */}
       </div>
     </>
   );

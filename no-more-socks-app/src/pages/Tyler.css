@@ -1,0 +1,12 @@
+h2 {
+  max-width: 40rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 80px;
+  color: green;
+}
+
+.list {
+  color: blue;
+  border-style: black;
+}
