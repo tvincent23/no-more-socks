@@ -2,13 +2,15 @@ export default function Landing() {
   return (
     <>
     <section className="landing-page-section">
-    <p>
-        Are you tired of always receiving socks for Christmas? Did you dream of
-        a playstation and got another Lynx Africa set
+      <p className="question">
+        Are you tired of always receiving socks for Christmas? Did you dream of a playstation and got another Lynx Africa set?
       </p>
+    
+      
+      
       <p>
         This is a space for you to put your wishes, and this will give Santa an
-        idea what you want for Christmas
+        idea what you want for Christmas.
       </p>
       <p>
         Then when it comes to Christmas time, Santa's helpers will make sure, if

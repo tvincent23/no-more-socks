@@ -7,14 +7,18 @@ export default function App() {
   return (
     <>
       <div className="App">
-        <div className="flex justify-center">
+        
           <header>
-            <h1 className="text-3xl font-bold underline">No More Socks</h1>
+            <h1 className="font-bold ">No More Socks</h1>
             <Landing />
+          
+          <div className="btnContainer">
             <MakeWish />
             <PurchaseWish />
+          </div>
+           
           </header>
-        </div>
+     
       </div>
     </>
   );
