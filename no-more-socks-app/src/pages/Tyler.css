@@ -6,7 +6,51 @@ h2 {
   color: green;
 }
 
+.mainContainer {
+  border: 1px solid black;
+  max-width: 60rem;
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+form {
+  border: 1px solid red;
+}
+input {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: green;
+}
+.addGiftBtn {
+  margin-top: 1rem;
+  background-color: rgb(14, 127, 44);
+  padding: 0.7rem 1rem;
+  border: 1px solid red;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.addGiftBtn:hover {
+  background: red;
+  color: offwhitestone;
+}
+.giftsContainer {
+  border: 2px solid green;
+  /* max-width: 20rem; */
+
+  display: flex;
+  gap: 1rem;
+}
 .list {
   color: blue;
-  border-style: black;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 1px solid red;
+  border-radius: 0.4rem;
 }
